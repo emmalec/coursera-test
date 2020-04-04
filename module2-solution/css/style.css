@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  ;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+#food-header1 {
+  margin: 0px;
+  color: azure;
+  background-color: green;
+  text-align: center;
+  border: 1px solid black;
+  width: 33%;
+  float: right;
+  
+}
+  #food-header2 {
+  margin: 0px;
+  color: azure;
+  background-color: cadetblue;
+  text-align: center;
+  border: 1px solid black;
+  width: 33%;
+  float: right; 
+}
+  #food-header3 {
+  margin: 0px;
+  color: azure;
+  background-color: slateblue;
+  text-align: center;
+  border: 1px solid black;
+  width: 33%;
+  float: right; 
+}
+
+ .col-lg-4, .col-md-6, .col-sm-12 {
+  border: solid 1px black;
+  margin: 1%;
+  background-color: coral;
+}
+
+p {
+  clear: both;
+  padding: 10px;
+}
+
+
+.all {
+  width: 100%;
+}
+
+/********** Browsers! **********/
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-lg-4 {
+    width: 31.33%;
+    margin: 1%;
+  }
+  
+}
+/********** Tablets! **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+  }
+
+  
+  .col-md-6 {
+    width: 48%;
+    margin: 1%;
+  }
+  
+  .col-md-12 {
+    width: 98%;
+    margin: 1%;
+  }
